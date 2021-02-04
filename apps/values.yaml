@@ -1,6 +1,6 @@
 spec:
   destination:
-    server: https://kubernetes.default.svc
+    server: https://argocd-dns-6faf8022.hcp.eastus2.azmk8s.io:443
   source:
     repoURL: https://github.com/argoproj/argocd-example-apps
     targetRevision: HEAD
